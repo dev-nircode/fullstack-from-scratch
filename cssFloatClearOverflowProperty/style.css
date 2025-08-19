@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 230, 230);
+  }
+  .float {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid green;
+    height: 80vh;
+    width: 80vw;
+    margin: 2rem auto;
+    background-color: rgb(190, 255, 190);
+    overflow: auto;
+    float: left;
+  }
+  .float h1 {
+    color: blueviolet;
+    font-size: 4rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgb(210, 190, 255);
+    width: 50%;
+    border: 2px solid black;
+  }
+  .float h2 {
+    color: rgb(0, 50, 50);
+    font-size: 2.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(220, 255, 220);
+    width: 60%;
+    border: 2px solid green;
+  }
+  #i1 {
+    height: 8rem;
+    width: 250px;
+    float: left;
+    margin: 1rem;
+    border: 3px solid blue;
+  }
+  #i2 {
+    height: 7rem;
+    width: 250px;
+    float: left;
+    clear: left;
+    margin: 1rem;
+    border: 3px solid red;
+  }
+  #i3 {
+    height: 6rem;
+    width: 200px;
+    float: right;
+    margin: 1.5rem;
+    border: 3px solid yellow;
+  }
+  #i4 {
+    height: 7rem;
+    width: 220px;
+    float: left;
+    margin: 1rem;
+    border: 3px solid orange;
+  }
+  .float p {
+    font-size: 1.3rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    color: rgb(0, 50, 50);
+    text-align: left;
+    background-color: rgb(230, 255, 230);
+    border: 1px solid green;
+    clear: both;
+  }
+  .float button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    background-color: rgb(210, 190, 255);
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    display: block;
+    width: 30%;
+  }
+  .box {
+    float: left;
+    border: 2px solid black;
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    padding: 3rem;
+  }
+  .box .item {
+    margin: 30px;
+    height: 200px;
+    background-color: blueviolet;
+    width: 200px;
+    float: left;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 200px;
+    border: 3px solid yellow;
+  }
+  .box .extra {
+    width: 25%;
+    height: 15rem;
+    background-color: rgb(255, 190, 255);
+    float: right;
+    margin: 2rem;
+    border: 3px solid blue;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 15rem;
+  }
+  .box button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    background-color: rgb(190, 255, 190);
+    border: 2px solid black;
+    color: rgb(0, 50, 50);
+    cursor: pointer;
+    float: left;
+    width: 20%;
+  }
+  .box p {
+    font-size: 1.2rem;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(0, 100, 0);
+    border: 2px solid yellow;
+    clear: both;
+  }
